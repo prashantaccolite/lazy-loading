@@ -6,28 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1) Clone Project
 2) Run `npm i`
-3) Run `ng serve`
+3) Run `ng serve` and navigate to `http://localhost:4200/`
 
-## Development server
+## Task
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1) Add two links in header `Vendors` and `Customers`
+2) Create a module `customers`
+3) There should be two componenet `active-customers` and `block-customers`
+4) If I access `Customers` module, by default `active-customers` data should be load
+5) We will access `Customers` and `Vendors` module by link which is available in `Header`
+6) `Customers` module link should be `http://localhost:4200/customers/active`
+7) Header links should be work for `Vendors` and `Customers`
+8) On `active-customers` we will display grid just like `active-vendor`
+9) Right now on `active-vendor` we are using data without using `*ngFor` but for `active-customers` we will define array in `.ts` file and will use in `template`

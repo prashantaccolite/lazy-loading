@@ -18,4 +18,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 6) `Customers` module link should be `http://localhost:4200/customers/active`
 7) Header links should be work for `Vendors` and `Customers`
 8) On `active-customers` we will display grid just like `active-vendor`
-9) Right now on `active-vendor` we are using data without using `*ngFor` but for `active-customers` we will define array in `.ts` file and will use in `template`
+9) on`active-customers` we will display data by using `service`

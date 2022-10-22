@@ -18,6 +18,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 6) `Customers` module link should be `http://localhost:4200/customers/active`
 7) Header links should be work for `Vendors` and `Customers`
 8) On `active-customers` we will display grid just like `active-vendor`
-9) on`active-customers` we will display data by using `service` with proper `model mapping`
+9) on`active-customers` we will display data by using `service` with proper `model mapping`. create custom `JSON` file under assets
 10) Under `Customers` module need two links just above table for targetting `active and block` customers
 

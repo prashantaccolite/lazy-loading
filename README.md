@@ -21,3 +21,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 9) on`active-customers` we will display data by using `service` with proper `model mapping`. create custom `JSON` file under assets
 10) Under `Customers` module need two links just above table for targetting `active and block` customers
 
+## Reference 
+
+[Icon Bootstrap](https://icons.getbootstrap.com/)
+
+[Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
